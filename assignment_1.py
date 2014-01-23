@@ -87,6 +87,7 @@ def getMedian(mylist):
                 return mylist[i][0]
 
 def main():
+    # give file path from here
     fileName = '/Users/changyunglin/Dropbox/STA250/test_1.csv'
     freqTable = {}
     with open(fileName, 'rb') as csvFile:
